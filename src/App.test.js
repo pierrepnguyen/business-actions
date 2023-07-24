@@ -9,5 +9,9 @@ import { App } from './App';
 it('should render', () => {
   render(<App />);
 
+it('should do something amazing', () => {
+  expect(true).toBe(false);
+});
+
   expect(screen.getByText('Business Contacts')).toBeInTheDocument();
 });
